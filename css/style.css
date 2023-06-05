@@ -90,7 +90,11 @@ section{
 .img5{
     width: 20px;
 }
+/* aca comienza la pag "servicios" */
 
+
+
+/* medias */
 @media(min-width:768px){
     .img1{
         display: none;
@@ -227,5 +231,23 @@ section{
         height: 150px;
         width: 100px;
     }
-
 }
+
+/* ACA EMPIEZA LAS MEDIA QUERIES DE SERVICIOS */
+@media (min-width:320){
+    .footer1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:10px;
+    }
+    .img3{
+        width:20px;
+    }
+    .img4{
+        width: 20px;
+    }
+    .img5{
+        width: 20px;
+    }
+    }
