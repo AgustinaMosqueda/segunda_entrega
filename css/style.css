@@ -90,12 +90,10 @@ section{
 .img5{
     width: 20px;
 }
-/* aca comienza la pag "servicios" */
-
-
 
 /* medias */
 @media(min-width:768px){
+
     .img1{
         display: none;
     }
@@ -250,4 +248,4 @@ section{
     .img5{
         width: 20px;
     }
-    }
+}
